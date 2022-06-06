@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+  <div class="main">
+    <div class="container">
+      <!--HEADER START-->
+      <div class="header">
+        <div class="navigation">
+          <ul class="hamburger">
+            <li class="line1"></li>
+            <li class="line2"></li>
+            <li class="line3"></li>
+          </ul>
+          <a href="#"><img src="images/logo.svg"></a>
+
+          <ul class="nav-items">
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="cart-wrapper">
+          <a class="cart-button"><img id="cart-img" src="images/icon-cart.svg"><span class="cart-quantity"></span></a>
+          <a class="avatar"><img src="images/image-avatar.png"></a>
+          <div class="cart">
+            <div class="cart-header">
+              <h3>Cart</h3>
+            </div>
+            <div class="cart-body">
+              <ul>
+
+                <li></li>
+
+              </ul>
+              <p class="message">Your cart is empty</p>
+            </div>
+          </div>
+        </div>
+      </div><!--HEADER END-->
+
+      <div class="product-wrapper">
+        <div class="gallery-wrapper">
+          <div class="main-img">
+            <img src="images/image-product-1.jpg">
+
+            <div class="arrows-main">
+              <a class="left-main"><svg id="right-arrow" width="13" height="18"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg></a>
+              <a class="right-main"><svg id="right-arrow" width="13" height="18"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg></a>
+            </div>
+          </div>
+
+          <div class="gallery-images">
+            <ul>
+              <li class="image"><a><img class="1" src="images/image-product-1-thumbnail.jpg"></a></li>
+              <li class="image"><a><img class="2" src="images/image-product-2-thumbnail.jpg"></a></li>
+              <li class="image"><a><img class="3" src="images/image-product-3-thumbnail.jpg"></a></li>
+              <li class="image"><a><img class="4" src="images/image-product-4-thumbnail.jpg"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-wrapper">
+          <p class="product-category">Sneaker Company</p>
+          <h2 class="product-title">Fall Limited Edition Sneakers</h2>
+          <p class="product-description">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+
+          <div class="price-wrapper">
+            <a class="product-price">$<span class="price">125.00</span></a>
+          <a class="discount">50%</a>
+          </div>
+
+          
+          <p class="old-price">$250.00</p>
+
+          <div class="product-count">
+            <div class="plus-minus">
+              <a class="minus" ><img src="images/icon-minus.svg"></a>
+            <a class="quant">0</a>
+            <a class="plus" ><img src="images/icon-plus.svg"></a>
+            </div>
+            
+            <div class="add-to-cart">
+              <a class="add-to-cart-btn">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="lightbox">
+        <div class="light-box-gallery-wrapper">
+          <div class="light-box-main-img">
+            <img src="images/image-product-1.jpg">
+
+            <div class="arrows">
+              <a class="exit"><img src="images/icon-close.svg"></a>
+              <a class="left"><svg id="right-arrow" width="13" height="18"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg></a>
+              <a class="right"><svg id="right-arrow" width="13" height="18"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg></a>
+            </div>
+          </div>
+
+          <div class="light-box-gallery-images">
+            <ul>
+              <li  class="light-box-image"><a><img class="1" src="images/image-product-1-thumbnail.jpg"></a></li>
+              <li  class="light-box-image"><a><img class="2" src="images/image-product-2-thumbnail.jpg"></a></li>
+              <li  class="light-box-image"><a><img class="3" src="images/image-product-3-thumbnail.jpg"></a></li>
+              <li  class="light-box-image"><a><img class="4" src="images/image-product-4-thumbnail.jpg"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+
+
+  <script src="script.js"></script>
+</body>
+</html>
